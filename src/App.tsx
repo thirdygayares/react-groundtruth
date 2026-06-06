@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
 import CreditPage from "@pages/Credit/CreditPage";
-import Homepage from "@pages/Home/Homepage";
+import Homepage from "./pages/home/Homepage";
 import DialogPage from "@pages/ComponentPage/Dialog/DialogPage";
 
 
-export const  App = ()=> {
+export const App = () => {
     return (
         <>
             <Routes>
